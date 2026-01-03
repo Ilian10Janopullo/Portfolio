@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilian Janopullo | Backend Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="nav">
+      <div class="brand">
+        <div class="dot"></div>
+        <span>Ilian Janopullo</span>
+        <small>Backend Engineer</small>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn ghost github-cta" href="https://github.com/Ilian10Janopullo" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn solid" href="https://www.linkedin.com/in/ilian-janopullo/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Java | Spring Boot | API Specialist</p>
+          <h1>Building scalable Java backends with thoughtful API design.</h1>
+          <p class="lede">
+            I’m Ilian, a backend engineer from Tirana with a knack for analyzing product needs, designing RESTful architectures, and shipping resilient services with Spring Boot, JPA, and cloud-native tooling.
+          </p>
+          <div class="cta-row">
+            <a class="btn solid" href="#projects">View Projects</a>
+            <a class="btn ghost" href="https://github.com/Ilian10Janopullo" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn link" href="https://learn.microsoft.com/en-gb/users/ilianjanopullo-2767/credentials/93da04408f412361?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noreferrer">Azure AZ-900</a>
+          </div>
+          <div class="quick-stats">
+            <div>
+              <span class="label">Cloud</span>
+              <strong>Microsoft Azure Fundamentals (AZ-900)</strong>
+            </div>
+            <div>
+              <span class="label">Experience</span>
+              <strong>Backend @ Adamant Solution</strong>
+            </div>
+            <div>
+              <span class="label">Focus</span>
+              <strong>Spring Boot microservices, API design, JPA</strong>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="profile-frame">
+            <div class="gradient-ring"></div>
+            <img src="assets/profile.jpeg" alt="Profile photo" onerror="this.onerror=null; this.src=''; this.classList.add('placeholder');" />
+            <div class="status-chip">Available for backend roles</div>
+          </div>
+          <div class="floating-card">
+            <p class="label">Toolchain</p>
+            <div class="chips">
+              <span>Spring Boot</span>
+              <span>JPA</span>
+              <span>REST APIs</span>
+              <span>Kafka</span>
+              <span>JUnit 5</span>
+              <span>Azure</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="panel reveal">
+        <div class="panel-header">
+          <p class="eyebrow">About</p>
+          <h2>Delivering reliable APIs and data-rich backends.</h2>
+          <p class="subhead">
+            Detail-oriented Software Engineering graduate (CGPA 3.9/4.0) with hands-on Java backend experience, agile delivery, and a habit of tuning services to real business needs. I map requirements into domain models, define clean REST contracts, and back them with strong test coverage.
+          </p>
+        </div>
+        <div class="grid two">
+          <div class="card">
+            <h3>What I do</h3>
+            <ul>
+              <li>Design and implement Spring Boot microservices with JPA and RESTful APIs</li>
+              <li>Model data for reliability and performance across Oracle SQL and MySQL</li>
+              <li>Write maintainable unit and integration tests with JUnit 5</li>
+              <li>Collaborate in Agile teams, integrating external APIs and cloud services</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Credentials</h3>
+            <ul>
+              <li>Microsoft Azure Fundamentals (AZ-900) — <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/" target="_blank" rel="noreferrer">verify</a></li>
+              <li>BSc in Software Engineering, Epoka University (Oct 2022 – Jun 2025), CGPA 3.94/4.0</li>
+              <li>Mentorship & leadership in GDSC and Epoka Programming Club</li>
+              <li>Languages: Albanian (Native), English (Fluent)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="panel reveal">
+        <div class="panel-header">
+          <p class="eyebrow">Technical Skills</p>
+          <h2>Java-first stack with cloud fluency.</h2>
+          <p class="subhead">Tap a focus to highlight the matching skills.</p>
+        </div>
+        <div class="filters">
+          <button class="pill active" data-filter="all">All</button>
+          <button class="pill" data-filter="java">Java Backend</button>
+          <button class="pill" data-filter="spring">Spring Boot</button>
+          <button class="pill" data-filter="cloud">Cloud & Ops</button>
+          <button class="pill" data-filter="testing">Testing</button>
+        </div>
+        <div class="grid three skill-grid">
+          <div class="skill-card" data-tags="java spring">
+            <h4>Backend & APIs</h4>
+            <p>Spring Boot, RESTful design, microservices, API gateways</p>
+          </div>
+          <div class="skill-card" data-tags="java spring">
+            <h4>Data Layer</h4>
+            <p>JPA/Hibernate, JDBC, Oracle SQL, MySQL, schema design</p>
+          </div>
+          <div class="skill-card" data-tags="java testing">
+            <h4>Quality</h4>
+            <p>JUnit 5, integration tests, CI/CD readiness, code reviews</p>
+          </div>
+          <div class="skill-card" data-tags="cloud">
+            <h4>Cloud</h4>
+            <p>Azure (AZ-900), AWS basics, service integrations</p>
+          </div>
+          <div class="skill-card" data-tags="java spring">
+            <h4>Messaging</h4>
+            <p>Apache Kafka, Redis, resilient event flows</p>
+          </div>
+          <div class="skill-card" data-tags="java cloud">
+            <h4>Dev Practices</h4>
+            <p>Agile collaboration, Git, requirements analysis, documentation</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="panel reveal">
+        <div class="panel-header">
+          <p class="eyebrow">Projects</p>
+          <h2>Built with Java, Spring Boot, and a product mindset.</h2>
+        </div>
+        <div class="grid two project-grid">
+          <article class="project-card" data-tags="java spring api">
+            <div class="project-top">
+              <h3>PnL (Profit & Loss) Tracker</h3>
+              <span class="badge">Java · Spring Boot · APIs</span>
+            </div>
+            <p>Backend service using Binance APIs to fetch real-time crypto/fiat exchange rates, compute portfolios, and surface actionable PnL insights.</p>
+            <div class="tags">
+              <span>REST</span><span>Data modeling</span><span>Security</span>
+            </div>
+            <button class="toggle" data-target="pnl-details">See details</button>
+            <div class="hidden" id="pnl-details">
+              <p>Designed a clear API contract, validated payloads, and hardened authentication to keep trading data safe.</p>
+            </div>
+            <a class="link-out" href="https://github.com/Ilian10Janopullo" target="_blank" rel="noreferrer">View on GitHub</a>
+          </article>
+
+          <article class="project-card" data-tags="java spring api">
+            <div class="project-top">
+              <h3>E-learning Platform</h3>
+              <span class="badge">Spring Boot · REST</span>
+            </div>
+            <p>Full-featured e-learning platform with course catalogs, enrollment, and content delivery backed by RESTful APIs.</p>
+            <div class="tags">
+              <span>Access control</span><span>MySQL</span><span>Integration tests</span>
+            </div>
+            <button class="toggle" data-target="elearn-details">See details</button>
+            <div class="hidden" id="elearn-details">
+              <p>Optimized persistence with JPA, ensured reliable transactions, and documented endpoints for quick client integration.</p>
+            </div>
+            <a class="link-out" href="https://github.com/Ilian10Janopullo" target="_blank" rel="noreferrer">View on GitHub</a>
+          </article>
+
+          <article class="project-card" data-tags="java spring">
+            <div class="project-top">
+              <h3>Car Rental WebApp</h3>
+              <span class="badge">Spring Boot · Auth</span>
+            </div>
+            <p>Rental booking and user portal with authentication, booking logic, and billing integration.</p>
+            <div class="tags">
+              <span>JWT</span><span>Booking engine</span><span>JPA</span>
+            </div>
+            <button class="toggle" data-target="car-details">See details</button>
+            <div class="hidden" id="car-details">
+              <p>Built role-based access, ensured reliable state transitions, and kept the domain model aligned with business language.</p>
+            </div>
+            <a class="link-out" href="https://github.com/Ilian10Janopullo" target="_blank" rel="noreferrer">View on GitHub</a>
+          </article>
+
+          <article class="project-card" data-tags="java">
+            <div class="project-top">
+              <h3>BookStore System</h3>
+              <span class="badge">Java · JavaFX</span>
+            </div>
+            <p>Library management application covering catalog UI, business logic, and JDBC integration.</p>
+            <div class="tags">
+              <span>UI</span><span>JDBC</span><span>Testing</span>
+            </div>
+            <button class="toggle" data-target="book-details">See details</button>
+            <div class="hidden" id="book-details">
+              <p>Implemented clean data access patterns and kept UX straightforward for staff users.</p>
+            </div>
+            <a class="link-out" href="https://github.com/Ilian10Janopullo" target="_blank" rel="noreferrer">View on GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="panel reveal">
+        <div class="panel-header">
+          <p class="eyebrow">Experience</p>
+          <h2>Delivering backend features with reliability and intent.</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="time">Jun 2025 – Present</div>
+            <div class="card">
+              <div class="chip-row">
+                <span class="chip">Java Backend Developer</span>
+                <span class="chip ghost">Adamant Solution</span>
+              </div>
+              <ul>
+                <li>Designed, developed, and maintained Spring Boot microservices with JPA and RESTful APIs</li>
+                <li>Implemented data models, query optimizations, and transaction management</li>
+                <li>Coordinated code reviews and improved test coverage with JUnit 5</li>
+                <li>Prioritized ready-to-ship features in Agile sprints and delivered production-grade APIs</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="time">Nov 2024 – Apr 2025</div>
+            <div class="card">
+              <div class="chip-row">
+                <span class="chip">Java Developer Intern</span>
+                <span class="chip ghost">Adamant Solution</span>
+              </div>
+              <ul>
+                <li>Contributed to backend development of Spring Boot applications using JPA, JSP, and Servlets</li>
+                <li>Designed and implemented authorization/authentication and session management logic</li>
+                <li>Worked on unit and integration tests with JUnit 5 to improve reliability</li>
+                <li>Collaborated with Maven and Git across the project lifecycle and CI/CD workflows</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="panel reveal">
+        <div class="panel-header">
+          <p class="eyebrow">Education</p>
+          <h2>Epoka University — Software Engineering BSc</h2>
+          <p class="subhead">CGPA 3.94/4.0, focused on algorithms, DBMS, data structures, software design, web dev, and testing.</p>
+        </div>
+        <div class="grid two">
+          <div class="card">
+            <h3>Coursework Highlights</h3>
+            <p>Algorithms & Programming, OOP, DBMS, Data Structures, Software Design, Web Development, Testing, ML basics.</p>
+          </div>
+          <div class="card">
+            <h3>Leadership</h3>
+            <p>Mentorship, GDSC, and Epoka Programming Club contributions.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="panel reveal contact">
+        <div class="panel-header">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s collaborate on your next backend.</h2>
+          <p class="subhead">Available for backend roles, freelance consulting, and API architecture reviews.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="card">
+            <h3>Reach me</h3>
+            <ul class="contact-list">
+              <li><span>Phone</span><a href="tel:+355695383073">+355 69 538 3073</a></li>
+              <li><span>Email</span><a href="mailto:ilian10janopullo@gmail.com">ilian10janopullo@gmail.com</a></li>
+              <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/ilian-janopullo/" target="_blank" rel="noreferrer">linkedin.com/in/ilian-janopullo/</a></li>
+              <li><span>GitHub</span><a href="https://github.com/Ilian10Janopullo" target="_blank" rel="noreferrer">github.com/Ilian10Janopullo</a></li>
+              <li><span>Location</span>Tirana, Albania</li>
+            </ul>
+          </div>
+          <div class="card highlight verification-card">
+            <div class="verification-top">
+              <div class="logo-circle" aria-hidden="true">
+                <svg viewBox="0 0 64 64" role="img" focusable="false">
+                  <defs>
+                    <linearGradient id="azureGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#3dd6d0"/>
+                      <stop offset="100%" stop-color="#38a1ff"/>
+                    </linearGradient>
+                  </defs>
+                  <path fill="url(#azureGradient)" d="M34.9 6.5 50 31.7c.8 1.3.3 3-1.1 3.6l-8.6 3.8c-.4.2-.7.5-.9.9l-7.6 16c-.8 1.6-3.1 1.4-3.6-.3l-6-19.4c-.2-.7.1-1.4.7-1.8l8.3-5.4c.3-.2.5-.5.6-.8L33.4 7c.4-1.7 2.7-2 3.5-.5Z"/>
+                  <path fill="#0e5aad" d="m27.4 35.5-5.9 3.9c-.7.5-.6 1.6.2 1.9l9.6 3.7c.6.2 1.3-.1 1.6-.7l3.2-6.7c.3-.6-.1-1.3-.8-1.4l-7-1c-.3 0-.6 0-.9.2Z"/>
+                </svg>
+              </div>
+              <div>
+                <h3>Verification</h3>
+                <p>Microsoft Azure Fundamentals (AZ-900) certificate</p>
+              </div>
+            </div>
+            <a class="btn solid full" href="https://learn.microsoft.com/en-gb/users/ilianjanopullo-2767/credentials/93da04408f412361?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noreferrer">Open Microsoft verification</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="background fx-1"></div>
+  <div class="background fx-2"></div>
+  <script src="script.js"></script>
+</body>
+</html>
